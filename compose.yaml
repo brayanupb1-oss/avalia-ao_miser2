@@ -1,0 +1,7 @@
+services:
+ web:
+  image: miser2-app
+  container_name: miser2-web
+ ports:
+  -\8080:80"
+ restart: always
